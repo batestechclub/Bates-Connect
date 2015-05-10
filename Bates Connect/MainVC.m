@@ -36,9 +36,14 @@
         case 1:
             identifier = @"eventsSegue";
             break;
-        case 2:
-            identifier = @"hoursSegue";
+//        case 2:
+//            identifier = @"hoursSegue";
+//            break;
+        case 3:
+            identifier = @"mingleSegue";
+            
             break;
+            
     }
     return identifier;
 }
@@ -64,7 +69,6 @@
     layer.shadowOpacity = 0;
     layer.shadowRadius = 0;
 }
-
 
 
 @end

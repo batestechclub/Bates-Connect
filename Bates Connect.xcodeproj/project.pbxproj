@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22A1DB0C1A9075FF00B10771 /* HoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1DB0B1A9075FF00B10771 /* HoursViewController.m */; };
 		22B7F16719C8AA2100EDCA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B7F16619C8AA2100EDCA46 /* Main.storyboard */; };
 		22B7F16A19C8C6CB00EDCA46 /* icon-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B7F16819C8C6CB00EDCA46 /* icon-menu.png */; };
 		22B7F16E19C8CA5C00EDCA46 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B7F16D19C8CA5C00EDCA46 /* Reachability.m */; };
@@ -27,7 +26,6 @@
 		22C62FE8190B1EFA00B937A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C62FE6190B1EFA00B937A0 /* InfoPlist.strings */; };
 		22C62FEA190B1EFA00B937A0 /* Bates_ConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C62FE9190B1EFA00B937A0 /* Bates_ConnectTests.m */; };
 		22C6300D190B211F00B937A0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C6300C190B211F00B937A0 /* QuartzCore.framework */; };
-		22C63013190B3B8B00B937A0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C63012190B3B8B00B937A0 /* Parse.framework */; };
 		22C63015190B3BDF00B937A0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C63014190B3BDF00B937A0 /* AudioToolbox.framework */; };
 		22C63017190B3BE700B937A0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C63016190B3BE600B937A0 /* CFNetwork.framework */; };
 		22C6301B190B3BFD00B937A0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C6301A190B3BFD00B937A0 /* libz.dylib */; };
@@ -46,6 +44,12 @@
 		22ECDE5B19B01CE8003A03A6 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECDE4E19B01CE8003A03A6 /* NavigationController.m */; };
 		22ECDE5F19B01D42003A03A6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ECDE5E19B01D42003A03A6 /* DetailViewController.m */; };
 		22ECDE6219B01EF1003A03A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ECDE6119B01EF1003A03A6 /* Images.xcassets */; };
+		2E595CE91AF1D83E0018BDE3 /* MingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E595CE71AF1D83E0018BDE3 /* MingleViewController.swift */; };
+		2E595CEA1AF1D83E0018BDE3 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E595CE81AF1D83E0018BDE3 /* BasicCell.swift */; };
+		2E595CEE1AF1D8BE0018BDE3 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E595CEB1AF1D8BE0018BDE3 /* libc++.dylib */; };
+		2E595CEF1AF1D8BE0018BDE3 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E595CEC1AF1D8BE0018BDE3 /* libicucore.dylib */; };
+		2E595CF01AF1D8BE0018BDE3 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E595CED1AF1D8BE0018BDE3 /* Firebase.framework */; };
+		2E93F2831AF301C800865C30 /* HoursViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E93F2821AF301C800865C30 /* HoursViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +63,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22A1DB0A1A9075FF00B10771 /* HoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HoursViewController.h; path = "../../../../../Tim/Desktop/Xcode_projects/bates_connect/Bates Connect/HoursViewController.h"; sourceTree = "<group>"; };
-		22A1DB0B1A9075FF00B10771 /* HoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HoursViewController.m; path = "../../../../../Tim/Desktop/Xcode_projects/bates_connect/Bates Connect/HoursViewController.m"; sourceTree = "<group>"; };
 		22B7F16619C8AA2100EDCA46 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		22B7F16819C8C6CB00EDCA46 /* icon-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-menu.png"; sourceTree = "<group>"; };
 		22B7F16C19C8CA5C00EDCA46 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -90,7 +92,6 @@
 		22C62FE7190B1EFA00B937A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22C62FE9190B1EFA00B937A0 /* Bates_ConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bates_ConnectTests.m; sourceTree = "<group>"; };
 		22C6300C190B211F00B937A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		22C63012190B3B8B00B937A0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		22C63014190B3BDF00B937A0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		22C63016190B3BE600B937A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		22C63018190B3BF500B937A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -120,6 +121,14 @@
 		22ECDE5D19B01D42003A03A6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		22ECDE5E19B01D42003A03A6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		22ECDE6119B01EF1003A03A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E595CE71AF1D83E0018BDE3 /* MingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MingleViewController.swift; sourceTree = "<group>"; };
+		2E595CE81AF1D83E0018BDE3 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		2E595CEB1AF1D8BE0018BDE3 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libc++.dylib"; sourceTree = "<group>"; };
+		2E595CEC1AF1D8BE0018BDE3 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libicucore.dylib; sourceTree = "<group>"; };
+		2E595CED1AF1D8BE0018BDE3 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		2E595CF71AF1DB180018BDE3 /* Bates Connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bates Connect-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E93F2811AF301C800865C30 /* HoursViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoursViewController.h; sourceTree = "<group>"; };
+		2E93F2821AF301C800865C30 /* HoursViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoursViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,17 +137,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				22C63023190B3C2400B937A0 /* SystemConfiguration.framework in Frameworks */,
+				2E595CEF1AF1D8BE0018BDE3 /* libicucore.dylib in Frameworks */,
 				22C63021190B3C1700B937A0 /* StoreKit.framework in Frameworks */,
 				22C6301F190B3C0E00B937A0 /* Security.framework in Frameworks */,
 				22C6301D190B3C0400B937A0 /* MobileCoreServices.framework in Frameworks */,
 				22C6301B190B3BFD00B937A0 /* libz.dylib in Frameworks */,
 				22C63017190B3BE700B937A0 /* CFNetwork.framework in Frameworks */,
 				22C63015190B3BDF00B937A0 /* AudioToolbox.framework in Frameworks */,
+				2E595CEE1AF1D8BE0018BDE3 /* libc++.dylib in Frameworks */,
 				22C6300D190B211F00B937A0 /* QuartzCore.framework in Frameworks */,
+				2E595CF01AF1D8BE0018BDE3 /* Firebase.framework in Frameworks */,
 				22C62FC7190B1EFA00B937A0 /* CoreGraphics.framework in Frameworks */,
 				22C62FC9190B1EFA00B937A0 /* UIKit.framework in Frameworks */,
 				22C62FC5190B1EFA00B937A0 /* Foundation.framework in Frameworks */,
-				22C63013190B3B8B00B937A0 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,15 +166,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22A1DB091A90756400B10771 /* Building Hours */ = {
-			isa = PBXGroup;
-			children = (
-				22A1DB0A1A9075FF00B10771 /* HoursViewController.h */,
-				22A1DB0B1A9075FF00B10771 /* HoursViewController.m */,
-			);
-			name = "Building Hours";
-			sourceTree = "<group>";
-		};
 		22B51AF31A7A895900E36FC2 /* Dining */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +184,8 @@
 				22ECDE5D19B01D42003A03A6 /* DetailViewController.h */,
 				22ECDE5E19B01D42003A03A6 /* DetailViewController.m */,
 				22ECDE4619B01CE8003A03A6 /* EventsViewController.h */,
+				2E93F2811AF301C800865C30 /* HoursViewController.h */,
+				2E93F2821AF301C800865C30 /* HoursViewController.m */,
 				22ECDE4719B01CE8003A03A6 /* EventsViewController.m */,
 				22ECDE4819B01CE8003A03A6 /* ListOfCategoriesViewController.h */,
 				22ECDE4919B01CE8003A03A6 /* ListOfCategoriesViewController.m */,
@@ -214,6 +218,7 @@
 		22C62FB8190B1EFA00B937A0 = {
 			isa = PBXGroup;
 			children = (
+				2E595CF71AF1DB180018BDE3 /* Bates Connect-Bridging-Header.h */,
 				22ECDE3919B01CE8003A03A6 /* Bates Connect */,
 				22ECDE6019B01EBF003A03A6 /* Supporting Files */,
 				22C62FE3190B1EFA00B937A0 /* Bates ConnectTests */,
@@ -234,6 +239,9 @@
 		22C62FC3190B1EFA00B937A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E595CEB1AF1D8BE0018BDE3 /* libc++.dylib */,
+				2E595CEC1AF1D8BE0018BDE3 /* libicucore.dylib */,
+				2E595CED1AF1D8BE0018BDE3 /* Firebase.framework */,
 				22C63022190B3C2400B937A0 /* SystemConfiguration.framework */,
 				22C63020190B3C1700B937A0 /* StoreKit.framework */,
 				22C6301E190B3C0E00B937A0 /* Security.framework */,
@@ -242,7 +250,6 @@
 				22C63018190B3BF500B937A0 /* CoreLocation.framework */,
 				22C63016190B3BE600B937A0 /* CFNetwork.framework */,
 				22C63014190B3BDF00B937A0 /* AudioToolbox.framework */,
-				22C63012190B3B8B00B937A0 /* Parse.framework */,
 				22C6300C190B211F00B937A0 /* QuartzCore.framework */,
 				22C62FC4190B1EFA00B937A0 /* Foundation.framework */,
 				22C62FC6190B1EFA00B937A0 /* CoreGraphics.framework */,
@@ -284,7 +291,7 @@
 				22B7F16D19C8CA5C00EDCA46 /* Reachability.m */,
 				22B51AF41A7A898100E36FC2 /* Events */,
 				22B51AF31A7A895900E36FC2 /* Dining */,
-				22A1DB091A90756400B10771 /* Building Hours */,
+				2E595CE61AF1D8190018BDE3 /* Mingle */,
 				22BF6E1819C8E89800B3543A /* AMSlideMenu */,
 				22ECDE6119B01EF1003A03A6 /* Images.xcassets */,
 			);
@@ -301,6 +308,15 @@
 				22ECDE3F19B01CE8003A03A6 /* Bates Connect-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E595CE61AF1D8190018BDE3 /* Mingle */ = {
+			isa = PBXGroup;
+			children = (
+				2E595CE71AF1D83E0018BDE3 /* MingleViewController.swift */,
+				2E595CE81AF1D83E0018BDE3 /* BasicCell.swift */,
+			);
+			name = Mingle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,7 +420,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E595CEA1AF1D83E0018BDE3 /* BasicCell.swift in Sources */,
 				22BF6E2819C8E89800B3543A /* AMSlideMenuContentSegue.m in Sources */,
+				2E595CE91AF1D83E0018BDE3 /* MingleViewController.swift in Sources */,
 				22ECDE5119B01CE8003A03A6 /* AppDelegate.m in Sources */,
 				22BF6E2D19C8E89800B3543A /* AMSlideMenuRightTableViewController.m in Sources */,
 				22D40D7E19C90B5500397E43 /* MainVC.m in Sources */,
@@ -414,13 +432,13 @@
 				22ECDE5F19B01D42003A03A6 /* DetailViewController.m in Sources */,
 				22BF6E2C19C8E89800B3543A /* AMSlideMenuRightMenuSegue.m in Sources */,
 				22ECDE5A19B01CE8003A03A6 /* MenuOfDay.m in Sources */,
+				2E93F2831AF301C800865C30 /* HoursViewController.m in Sources */,
 				22ECDE5419B01CE8003A03A6 /* DaysOfWeek.m in Sources */,
 				22ECDE5B19B01CE8003A03A6 /* NavigationController.m in Sources */,
 				22ECDE5919B01CE8003A03A6 /* main.m in Sources */,
 				22ECDE5819B01CE8003A03A6 /* ListOfCategoriesViewController.m in Sources */,
 				22BF6E2A19C8E89800B3543A /* AMSlideMenuLeftTableViewController.m in Sources */,
 				22BF6E2E19C8E89800B3543A /* UIViewController+AMSlideMenu.m in Sources */,
-				22A1DB0C1A9075FF00B10771 /* HoursViewController.m in Sources */,
 				22B7F16E19C8CA5C00EDCA46 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,7 +558,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -548,10 +567,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bates Connect/Bates Connect-Prefix.pch";
 				INFOPLIST_FILE = "Bates Connect/Bates Connect-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ce5bb48d-aabb-4060-85b1-fd9d0fc64442";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Bates Connect-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -565,7 +589,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -573,10 +598,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bates Connect/Bates Connect-Prefix.pch";
 				INFOPLIST_FILE = "Bates Connect/Bates Connect-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ce5bb48d-aabb-4060-85b1-fd9d0fc64442";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Bates Connect-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;

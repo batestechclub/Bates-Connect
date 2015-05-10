@@ -1,3 +1,4 @@
+
 //
 //  AMSlideMenuMainViewController.m
 //  AMSlideMenu
@@ -383,12 +384,12 @@ static NSMutableArray *allInstances;
         {
             [self performSegueWithIdentifier:@"leftMenu" sender:self];
 
-            @try {
-                [self performSegueWithIdentifier:@"rightMenu" sender:self];
-            }
-            @catch (NSException *exception) {
-                
-            }
+//            @try {
+//                //[self performSegueWithIdentifier:@"rightMenu" sender:self];
+//            }
+//            @catch (NSException *exception) {
+//                
+//            }
         }
         @catch (NSException *exception)
         {

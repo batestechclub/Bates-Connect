@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <Parse/Parse.h>
+//#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
@@ -16,21 +16,25 @@
     //[NSThread sleepForTimeInterval:2.0]; // Used For Showing Splash Screen for More Time
     
     //Parse tracking phone ID
-    [Parse setApplicationId:@"fZS2V52pLdFsncSqylKamJDdSXpxHird4GRJ9Lip"
-                  clientKey:@"WzC2ZCvrzlbqIN11yMLowdCkqwEjaKsEtOxSLFdP"];
+    //[Parse setApplicationId:@"fZS2V52pLdFsncSqylKamJDdSXpxHird4GRJ9Lip"
+    //              clientKey:@"WzC2ZCvrzlbqIN11yMLowdCkqwEjaKsEtOxSLFdP"];
     
     
     //Application opens tracking (Parse)
-    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    //[PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     // Send the dimensions to Parse along with the 'read' event
     
-    [PFAnalytics trackEvent:@"hello"];
+    //[PFAnalytics trackEvent:@"hello"];
     
-    [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
-                                                    UIRemoteNotificationTypeAlert|
-                                                    UIRemoteNotificationTypeSound];
-    
+    //[application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
+//                                                    UIRemoteNotificationTypeAlert|
+//                                                    UIRemoteNotificationTypeSound];
+    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]){
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+    }
+    [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+
     
     return YES;
 }
@@ -41,14 +45,14 @@
 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 {
     // Store the deviceToken in the current installation and save it to Parse.
-    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
-    [currentInstallation setDeviceTokenFromData:deviceToken];
-    [currentInstallation saveInBackground];
+    //PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    //[currentInstallation setDeviceTokenFromData:deviceToken];
+    //[currentInstallation saveInBackground];
 }
 
 - (void)application:(UIApplication *)application
 didReceiveRemoteNotification:(NSDictionary *)userInfo {
-    [PFPush handlePush:userInfo];
+    //[PFPush handlePush:userInfo];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
